@@ -1,0 +1,101 @@
+.promotional-banners {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .banner {
+    width: 48%;
+    position: relative;
+  }
+  
+  .banner img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .banner-content {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    color: #fff;
+  }
+  
+  .banner-content h2 {
+    font-size: 24px;
+    margin: 0;
+  }
+  
+  .banner-content p {
+    margin: 5px 0;
+  }
+  
+  .banner-content button {
+    background-color: #ff0000;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  .products-sections {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .products-section {
+    width: 32%;
+  }
+  
+  .products-section h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .products {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .product-card {
+    width: 48%;
+    background-color: #fff;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .product-card img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .product-details {
+    text-align: center;
+  }
+  
+  .footer-icons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    padding: 20px 0;
+    background-color: #f8f8f8;
+  }
+  
+  .icon {
+    text-align: center;
+    width: 23%;
+  }
+  
+  .icon img {
+    width: 60px;
+    height: 60px;
+  }
+  
+  .icon p {
+    margin: 5px 0;
+  }
+  
